@@ -115,7 +115,7 @@ blockquote, q {
      display:inline-block;
  }
  .left{
-     width:30%
+     width:30%;
      margin-left:2%;
  }
  .left img {
@@ -123,7 +123,7 @@ blockquote, q {
      height: 350px;
  }
  .right{
-     width:55%
+     width:55%;
      margin-left: 5%;
      
  }
@@ -133,13 +133,15 @@ blockquote, q {
  }
 
  .info {
-    
+    width: 80%;
      background-color: #DDB9A3;
-     margin: 0 35%;
-     padding: 0;
-     display: block;
+     display: inline-block;
+     max-width: 100%;
+     margin: 0 10%;
  }
-
+.firstp {
+    margin: 5%%;
+}
  .info p {
      text-align: center;
      padding: 1px;
@@ -152,3 +154,13 @@ blockquote, q {
      height: 250px;
      margin: 1% 0;
  }
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.footerpic {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
