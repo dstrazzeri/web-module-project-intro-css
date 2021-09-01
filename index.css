@@ -40,7 +40,7 @@ blockquote, q {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
-        max-width: 100%;
+        max-width: 100%; 
     }
     /*general styles*/
     html{
@@ -51,6 +51,7 @@ blockquote, q {
         line-height: 1.5;
         color: #4F4F4F;  
         font-family: 'Roboto Mono', monospace;
+        letter-spacing: 1px;
  }
 
  h1 {
@@ -60,6 +61,8 @@ blockquote, q {
 
  h2 {
      text-align:center;
+     margin: 5%;
+     display: inline;
  }
 
  a {
@@ -102,25 +105,50 @@ blockquote, q {
  }
 
  /*Titles Section Styles*/
-.title{
+
+.titles{
     text-align: center;
     position: relative;
-}
+    }
+
  .left, .right{
      display:inline-block;
  }
  .left{
      width:30%
-     margin-left:5%;
+     margin-left:2%;
  }
  .left img {
-     border-radius: 50%
+     border-radius: 50%;
+     height: 350px;
  }
  .right{
      width:55%
      margin-left: 5%;
+     
  }
  .right div{
      position: absolute;
      top:40%;
+ }
+
+ .info {
+    
+     background-color: #DDB9A3;
+     margin: 0 35%;
+     padding: 0;
+     display: block;
+ }
+
+ .info p {
+     text-align: center;
+     padding: 1px;
+     color: #FFF;
+ }
+.mid {
+    text-align: center;
+}
+ .mid img {
+     height: 250px;
+     margin: 1% 0;
  }
